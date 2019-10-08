@@ -15,4 +15,4 @@ script:
   - flutter test --no-pub test/
 cache:
   directories:
-    -$HOME/.pub-cache
+    - $HOME/.pub-cache
