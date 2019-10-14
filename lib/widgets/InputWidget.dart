@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:messio/config/Palette.dart';
+import 'package:messio/config/Styles.dart';
 
 class InputWidget extends StatelessWidget {
 
@@ -31,7 +32,7 @@ class InputWidget extends StatelessWidget {
                 controller: textEditingController,
                 decoration: InputDecoration.collapsed(
                   hintText: 'Type a message',
-                  hintStyle: TextStyle(color: Palette.greyColor),
+                  hintStyle: Styles.subText,
                 ),
               ),
             ),
